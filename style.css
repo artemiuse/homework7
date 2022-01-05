@@ -1,5 +1,5 @@
 body{
-background-color: gray;
+background-color: #b3afaf;
 }
 .main{
     position: absolute;
@@ -21,7 +21,7 @@ background-color: gray;
     margin-top: 140px;
     margin-left: 90px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     font-family:  'Montserrat', sans-serif;
     opacity: .7;
 }
@@ -30,23 +30,24 @@ background-color: gray;
     margin-top:210px ;
     margin-left: 90px;
     border: none;
-    font-size:18px ;
+    font-size:16px ;
     font-family: 'Montserrat', sans-serif ;
     opacity: .7;
 }
 #submit{
     position: absolute;
     margin-top:310px ;
-    margin-left:90px ;
+    margin-left:70px ;
     text-transform: uppercase;
-    font-size: 17px;
-    width: 250px;
+    font-size: 15px;
+    width: 270px;
     height: 50px;
- background: linear-gradient(to right,#74c9e3,#b22adb  );
+ background: linear-gradient(to right,#00e5ff,#b22adb  );
  border: none;
  border-radius:30px ;
  color: white;
  text-align: center;
+ font-family: none;
 }
 .line{
     position: absolute;
@@ -74,17 +75,19 @@ background-color: gray;
 #text2{
     position: absolute;
     margin-top:550px ;
-    margin-left: 90px;
+    margin-left: 70px;
     color: gray;
-    opacity: .9;
-    font-size: 12px;
+    font-size: 13px;
     border: none;
+    font-family: none;
 }
-#button{
+#text3{
     position: absolute;
     margin-top: 550px;
-    margin-left:250px ;
-    font-size: 12px;
+    margin-left:225px ;
+    font-size: 13px;
     color:black ;
     opacity: .9;
+    font-family: none;
+    border: none;
 }
